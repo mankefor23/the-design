@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{ 
+ font-family: 'Poppins', sans-serif;
+ min-height: 100vh;
+ color: (--dark);
+ 
+	
+/header/
+
+.hero-section {
+    background-color: orange;
+	background-size: cover;
+	background-position: center
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-section h1{
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+	
+.hero-section p{
+	  font-size: 1.2rem;
+	  color: gray;
+	  margin: auto;
+	  margin-bottom: 30px;
+}
+	
+.deliver {
+    background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	width: 400px;
+	margin: 0 auto;
+}
+
+.search-icon{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    
+}
+:hover .search-icon {
+    filter: grayscale(1);
+     transform: scale(1.03);
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button.find {
+    background-color: rgb(189, 27, 27);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-container {
+       display: flex;
+       justify-content: center;
+        align-items: center;
+       flex-wrap: wrap;
+       gap: 20px;
+       padding: 20px;
+        }
+		
+.deals-card {
+         width: 50px;
+         height: 50px; 
+         cursor: pointer;
+        }
+		
+.deals-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+		
+.login-btn {
+           
+		 vertical-align: middle;
+          cursor: pointer;
+        }
+		
+ .login-btn:hover {
+            background-color: darkred;
+        }
+		
+      .login-btn:focus {
+            outline: none;
+        }
+		
+  .search-btn {
+            background-color: rgb(187, 25, 25);
+            border: none;
+            cursor: pointer;
+        
+	 }
